@@ -48,7 +48,9 @@ Kanava oli 9670 kHz:n paikkeilla.
 
 Menin sivustolle [ADS-B Exchange](https://globe.adsbexchange.com/) ja etsin jonkin koneen sieltä.
 
-Valitsin SDM6325 koneen, joka Venäläinen on matkustajakone.
+Valitsin SDM6325 koneen, joka on Venäläinen matkustajakone.
+
+![SDM6325](./kuvia/ads-b-kone.png)
 
 Lennon tunnus on SDM6325. SDM on Rossiya Airlinesin ICAO-yhtiötunnus. Kone on Sukhoi Superjet 100-95 (tyyppikoodi SU95), venäläinen kapearunkoinen alueliikennekone. Tyyppikuvaus L2J tarkoittaa maakonetta (Land), jossa on kaksi (2) suihkumoottoria (Jet). Rekisteritunnus on RA-89173 (RA- on Venäjän kansallisuustunnus), ja ICAO-osoite on 155C55. Se on transponderiin ohjelmoitu 24-bittinen yksilöllinen tunniste, joka kuuluu Venäjälle varattuun osoitelohkoon.
 
