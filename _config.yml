@@ -1,0 +1,22 @@
+title: Verkkoon tunkeutuminen ja tiedustelu
+description: Verkkoon Tunkeutuminen ja Tiedustelu -kurssin raportit
+theme: jekyll-theme-cayman
+lang: fi
+repository: JoneHyttinen/verkkoon-tunkeutuminen
+
+# GitHub Pages turns README.md files into index pages and rewrites
+# links to .md files into links to the generated pages.
+plugins:
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
