@@ -1,14 +1,34 @@
+# Reverie theme (https://github.com/amitmerchant1990/reverie), loaded
+# straight from GitHub. _layouts/default.html overrides the theme's header
+# so the nav lists the reports.
+remote_theme: amitmerchant1990/reverie
+
+name: Verkkoon tunkeutuminen ja tiedustelu
 title: Verkkoon tunkeutuminen ja tiedustelu
 description: Verkkoon Tunkeutuminen ja Tiedustelu -kurssin raportit
+author: JoneHyttinen
+avatar: https://github.com/JoneHyttinen.png
 lang: fi
 repository: JoneHyttinen/verkkoon-tunkeutuminen
 
-# Hyde theme (https://github.com/poole/hyde), colour: purple
-hyde_theme: theme-base-0e
+# Icons shown in the footer
+footer-links:
+  github: JoneHyttinen/verkkoon-tunkeutuminen
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded
 
 # GitHub Pages turns README.md files into index pages and rewrites
 # links to .md files into links to the generated pages.
 plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
   - jekyll-readme-index
   - jekyll-relative-links
   - jekyll-optional-front-matter
@@ -19,7 +39,7 @@ readme_index:
   with_frontmatter: true
 
 # Use each README's first heading as the page title and remove it from the
-# body, since the Hyde page layout prints the title itself.
+# body, since the page layout prints the title itself.
 titles_from_headings:
   strip_title: true
 

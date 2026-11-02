@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title and page.url != "/" %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    {% seo title=false %}
+    {% include meta.html %}
 
-  {% include head.html %}
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/style.css' | relative_url }}" />
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  </head>
 
-  <body class="{{ site.hyde_theme }}">
+  <body>
+    <div id="bar"></div>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="{{ '/' | relative_url }}" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
 
-    {% include sidebar.html %}
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
+              <p class="site-description">{{ site.description }}</p>
+            </div>
 
-    <div class="content container">
-      {{ content }}
+            <nav>
+              <a href="{{ '/' | relative_url }}">Etusivu</a>
+              {% comment %} One link per report folder (each folder's README.md). {% endcomment %}
+              {% assign reports = site.pages | where: "name", "README.md" | sort: "url" %}
+              {% for node in reports %}
+                {% if node.url != "/" %}
+                  <a href="{{ node.url | relative_url }}">{{ node.title }}</a>
+                {% endif %}
+              {% endfor %}
+            </nav>
+          </header>
+        </div>
+      </div>
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          {{ content }}
+        </div>
+      </div>
+
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
+      </div>
     </div>
-
   </body>
 </html>
