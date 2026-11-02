@@ -1,8 +1,10 @@
 title: Verkkoon tunkeutuminen ja tiedustelu
 description: Verkkoon Tunkeutuminen ja Tiedustelu -kurssin raportit
-theme: jekyll-theme-cayman
 lang: fi
 repository: JoneHyttinen/verkkoon-tunkeutuminen
+
+# Hyde theme (https://github.com/poole/hyde), colour: purple
+hyde_theme: theme-base-0e
 
 # GitHub Pages turns README.md files into index pages and rewrites
 # links to .md files into links to the generated pages.
@@ -15,6 +17,11 @@ plugins:
 
 readme_index:
   with_frontmatter: true
+
+# Use each README's first heading as the page title and remove it from the
+# body, since the Hyde page layout prints the title itself.
+titles_from_headings:
+  strip_title: true
 
 exclude:
   - Gemfile
