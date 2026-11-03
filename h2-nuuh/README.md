@@ -359,3 +359,4 @@ varsinaiseen tiedonsiirtoon.
 - [Tehtävänanto](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#laksyt)
 - [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/)
 - [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/)
+Claude Opus 5.5 Tekoälymalli
