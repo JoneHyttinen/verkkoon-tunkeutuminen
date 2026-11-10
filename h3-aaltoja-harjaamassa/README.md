@@ -152,9 +152,9 @@ Tässä ajassa vertauskohteita voisivat olla:
 
 ## Lähteet
 
-[Teron Tehtävänanto](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#laksyt)
-[Hubacek 2019 YouTube URH SDR Tutorial](https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s)
-[Decode 433.92 MHz weather station data (Artikkeli)](https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html)
-[Amplitude Shift Keying](https://www.geeksforgeeks.org/electronics-engineering/amplitude-shift-keying/)
+- [Teron Tehtävänanto](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#laksyt)
+- [Hubacek 2019 YouTube URH SDR Tutorial](https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s)
+- [Decode 433.92 MHz weather station data (Artikkeli)](https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html)
+- [Amplitude Shift Keying](https://www.geeksforgeeks.org/electronics-engineering/amplitude-shift-keying/)
 
 Claude Opus -tekoälymalli (Opus 5.5 ja Opus 4.8)
