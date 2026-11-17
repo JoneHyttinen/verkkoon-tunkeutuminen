@@ -196,6 +196,7 @@ EV2/EV3:een, on ainoa todellinen korjaus.
 
 ## Lähteet
 
+- [Tehtävänanto](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#laksyt)
 - [Radio-frequency identification (Wikipedia)](https://en.wikipedia.org/wiki/Radio-frequency_identification)
 - [iLOQ S5-avain tuotesivu](https://www.iloq.com/en-gb/catalogue/k5s-5/)
 - [NF506i RFID Reader](https://support.iloq.com/en-au/iloq-manager/5-series/user-guide/iloq-online-system-and-devices/iloq-online-system/n50x-rfid-readers/n506i-rfid-reader/)
